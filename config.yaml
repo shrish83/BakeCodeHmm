@@ -1,6 +1,6 @@
-baseurl: https://example.org
-title: Universal
-theme: hugo-universal-theme
+baseurl: https://bakecodehmm.netlify.app
+title: BakeCodeHmm
+theme: "minimal"
 languageCode: en-us
 defaultContentLanguage: en
 disqusShortname: devcows
