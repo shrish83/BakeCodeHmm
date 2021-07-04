@@ -1,6 +1,6 @@
 baseurl: https://bakecodehmm.netlify.app
 title: BakeCodeHmm
-theme: "minimal"
+theme: "hugo-universal-theme"
 languageCode: en-us
 defaultContentLanguage: en
 disqusShortname: devcows
@@ -27,19 +27,19 @@ menu:
   topbar:
     - name: GitHub
       pre: <i class='fab fa-2x fa-github'></i>
-      url: https://github.com/devcows/hugo-universal-theme
+      url: https://github.com/shrish83
       weight: 1
     - name: Facebook
-      pre: <i class='fab fa-2x fa-facebook'></i>
-      url: http://facebook.com
+      pre: <i class='fab fa-2x fa-linkedin'></i>
+      url: https://www.linkedin.com/in/shrishti-vaish/
       weight: 2
     - name: Twitter
       pre: <i class='fab fa-2x fa-twitter'></i>
-      url: http://twitter.com
+      url: http://twitter.com/ShrishtiVaish
       weight: 3
     - name: Email
       pre: <i class='fas fa-2x fa-envelope'></i>
-      url: mailto:your@email.com
+      url: mailto:bakecodehmm@gmail.com
       weight: 4
 params:
   about_us: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
@@ -51,13 +51,13 @@ params:
   carousel:
     enable: yes
   clients:
-    enable: yes
+    enable: no
     subtitle: ''
     title: Our Clients
-  contact_form_ajax: no
-  copyright: Copyright (c) 2015 - 2016, YourCompany; all rights reserved.
-  date_format: January 2, 2006
-  default_sharing_image: img/sharing-default.png
+  contact_form_ajax: yes
+  copyright: Copyright (c) 2021, BakeCodeHmm - All Rights Reserved.
+  date_format: July 4, 2021
+  default_sharing_image: img/pic.png
   defaultDescription: Site template made by devcows using hugo
   defaultKeywords:
     - devows
@@ -66,12 +66,12 @@ params:
   enableGoogleMaps: yes
   facebook_site: ''
   features:
-    enable: yes
+    enable: no
   formspree_action: https://formspree.io/sample/of/endpoint
   googleMapsApiKey: AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y
   latitude: '-12.043333'
-  logo: img/logo.png
-  logo_small: img/logo-small.png
+  logo: img/cp.png
+  logo_small: img/cp.png
   longitude: '-77.028333'
   mainSections: blog
   recent_posts:
@@ -83,22 +83,21 @@ params:
     title: From our blog
   see_more:
     enable: yes
-    icon: far fa-file-alt
-    link_text: Check other homepages
+    icon: fa fa-envelope-open
+    link_text: Subscribe
     link_url: '#'
-    subtitle: We have prepared for you more than 40 different HTML pages, including
-      5 variations of homepage.
-    title: Do you want to see more?
-  style: default
+    subtitle: For Daily dose of inspiration
+    title: Subscribe for our newsletter
+  style: marsala
   testimonials:
-    enable: yes
+    enable: no
     subtitle: We have worked with many clients and we always like to hear they come
       out from the cooperation happy and satisfied. Have a look what our clients said
       about us.
     title: Testimonials
   topbar:
     enable: yes
-    text: "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\r\n
+    text: "<p class=\"hidden-sm hidden-xs\">Contact us at bakecodehmm@gmail.com</p>\r\n
       \     <p class=\"hidden-md hidden-lg\"><a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-phone\"></i></a>\r\n      <a href=\"#\" data-animate-hover=\"pulse\"><i
       class=\"fas fa-envelope\"></i></a>\r\n      </p>\r\n      "
