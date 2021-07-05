@@ -6,6 +6,7 @@ defaultContentLanguage: en
 disqusShortname: devcows
 googleAnalytics: ''
 paginate: 10
+rss: true
 menu:
   main:
     - identifier: home
@@ -29,7 +30,7 @@ menu:
       pre: <i class='fab fa-2x fa-github'></i>
       url: https://github.com/shrish83
       weight: 1
-    - name: Facebook
+    - name: Linkedin
       pre: <i class='fab fa-2x fa-linkedin'></i>
       url: https://www.linkedin.com/in/shrishti-vaish/
       weight: 2
@@ -40,6 +41,10 @@ menu:
     - name: Email
       pre: <i class='fas fa-2x fa-envelope'></i>
       url: mailto:bakecodehmm@gmail.com
+      weight: 4
+    - name: Rss
+      pre: <i class="fas fa-2x fa-rss"></i>
+      url: https://bakecodehmm.netlify.app/rss.xml
       weight: 4
 params:
   about_us: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
